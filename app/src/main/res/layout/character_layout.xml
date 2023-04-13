@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#3D3D3C">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear jugador"
+        android:textSize="40sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#FFE370"
+        android:hint="Nom 1"
+        android:layout_marginTop="200px"
+        android:id="@+id/nom1"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#FFE370"
+        android:hint="Nom 2"
+        android:layout_marginTop="50px"
+        android:id="@+id/nom2"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#FFE370"
+        android:hint="Nom 3"
+        android:layout_marginTop="50px"
+        android:id="@+id/nom3"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#FFE370"
+        android:hint="Nom 4"
+        android:layout_marginTop="50px"
+        android:id="@+id/nom4"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#FFE370"
+        android:hint="Nom 5"
+        android:layout_marginTop="50px"
+        android:id="@+id/nom5"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#FFE370"
+        android:hint="Nom 6"
+        android:layout_marginTop="50px"
+        android:id="@+id/nom6"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:backgroundTint="#D6B631"
+        android:text="Més jugadors"
+        android:id="@+id/mesJugadors"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:id="@+id/aceptar"
+        android:backgroundTint="#D6B631"/>
+</LinearLayout>
